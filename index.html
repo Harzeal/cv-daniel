@@ -1,0 +1,1089 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Daniel Pratama Napitupulu — Graphic Designer & Digital Business</title>
+  <meta name="description" content="Curriculum Vitae & Portofolio Resmi Daniel Pratama Napitupulu — Graphic Designer, Digital Marketer, dan Mahasiswa Bisnis Digital Universitas Lancang Kuning, Pekanbaru, Riau." />
+  <meta name="keywords" content="Daniel Pratama Napitupulu, Graphic Designer Pekanbaru, Desain Grafis Riau, Bisnis Digital Unilak, Pertamina RU II Dumai, HIMABISDI, CV Daniel" />
+  <meta name="author" content="Daniel Pratama Napitupulu" />
+  
+  <!-- Open Graph / Meta Sosial -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Daniel Pratama Napitupulu — Graphic Designer & Digital Business" />
+  <meta property="og:description" content="Portofolio & CV Profesional: Memadukan estetika desain grafis dengan analisis data dan strategi pemasaran digital berdaya saing." />
+  <meta property="og:image" content="foto-profil.jpg" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="logo.svg" />
+
+  <!-- Google Fonts: Plus Jakarta Sans & Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Ambient Dark Navy Background Canvas -->
+  <div class="ambient-canvas" aria-hidden="true">
+    <div class="ambient-glow glow-1"></div>
+    <div class="ambient-glow glow-2"></div>
+    <div class="ambient-glow glow-3"></div>
+    <div class="ambient-grid"></div>
+  </div>
+
+  <!-- Header & Floating Navigation -->
+  <header class="navbar-wrapper" id="top">
+    <div class="navbar-container">
+      <a href="#hero" class="nav-brand" aria-label="Beranda Daniel Pratama">
+        <div class="brand-avatar">
+          <img src="logo.svg" alt="Logo DPN" width="34" height="34" />
+        </div>
+        <div class="brand-info">
+          <span class="brand-title">Daniel Pratama<span class="accent-dot">.</span></span>
+          <span class="brand-subtitle">Graphic Designer</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-menu" id="navMenu" aria-label="Menu Navigasi Utama">
+        <a href="#tentang" class="nav-link">Tentang</a>
+        <a href="#pendidikan" class="nav-link">Pendidikan</a>
+        <a href="#pengalaman" class="nav-link">Pengalaman</a>
+        <a href="#keahlian" class="nav-link">Keahlian</a>
+        <a href="#portofolio" class="nav-link">Portofolio</a>
+        <a href="#kontak" class="nav-link">Kontak</a>
+      </nav>
+
+      <!-- Right Action CTA -->
+      <div class="nav-actions">
+        <button type="button" class="btn-pdf-print" onclick="window.print()" title="Cetak / Simpan CV sebagai PDF">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="6 9 6 2 18 2 18 9"></polyline>
+            <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+            <rect x="6" y="14" width="12" height="8"></rect>
+          </svg>
+          <span>Cetak PDF</span>
+        </button>
+
+        <a href="https://wa.me/6285133965577?text=Halo%20Daniel,%20saya%20melihat%20CV%20website%20Anda%20dan%20tertarik%20untuk%20berdiskusi." target="_blank" rel="noopener noreferrer" class="btn-primary-glow">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm0 18.06c-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.163 8.163 0 0 1-1.26-4.29c0-4.52 3.68-8.2 8.2-8.2 2.19 0 4.25.85 5.8 2.4 1.55 1.55 2.4 3.61 2.4 5.8 0 4.52-3.68 8.15-8.15 8.15zm4.49-6.13c-.25-.12-1.47-.72-1.7-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-2-1.23-.74-.66-1.24-1.48-1.39-1.73-.14-.25-.02-.38.11-.5.11-.11.25-.29.37-.43.12-.14.17-.25.25-.41.08-.17.04-.31-.02-.43s-.56-1.34-.76-1.84c-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.22.25-.86.84-.86 2.05 0 1.21.88 2.38 1 2.54.12.17 1.73 2.64 4.19 3.7.59.25 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.06-.12-.22-.19-.47-.31z"/>
+          </svg>
+          <span>Chat WhatsApp</span>
+        </a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button type="button" class="nav-toggle" id="navToggle" aria-label="Buka navigasi mobile" aria-expanded="false">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="mainContent">
+
+    <!-- ==================== HERO SECTION ==================== -->
+    <section class="section-hero" id="hero">
+      <div class="container hero-grid">
+        
+        <!-- Left: Text & Pitch -->
+        <div class="hero-content">
+          <div class="badge-status">
+            <span class="pulse-indicator"></span>
+            <span class="badge-text">Terbuka untuk Kolaborasi &amp; Pekerjaan Desain</span>
+          </div>
+
+          <h1 class="hero-name">
+            Daniel Pratama <br />
+            <span class="gradient-text">Napitupulu</span>
+          </h1>
+
+          <p class="hero-role-tag">
+            <span class="role-highlight">Graphic Designer</span>
+            <span class="role-separator">•</span>
+            <span class="role-secondary">Digital Marketing &amp; Data Analyst</span>
+          </p>
+
+          <p class="hero-bio">
+            Kreator visual dan mahasiswa Bisnis Digital di <strong>Universitas Lancang Kuning</strong> dengan pengalaman kerja lapangan di industri energi <strong>Kilang Pertamina RU II Dumai</strong> dan kepengurusan aktif di <strong>HIMABISDI</strong>. Ahli dalam merancang identitas visual yang memikat, membaca analitika data pasar, serta mengeksekusi kampanye pemasaran digital berdampak nyata.
+          </p>
+
+          <!-- Quick Metadata Chips -->
+          <div class="hero-chips">
+            <div class="meta-chip">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              <span>Pekanbaru, Riau, Indonesia</span>
+            </div>
+            <div class="meta-chip">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+              </svg>
+              <span>Universitas Lancang Kuning (2024–2028)</span>
+            </div>
+            <div class="meta-chip">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"></path>
+                <path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2"></path>
+                <path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2"></path>
+              </svg>
+              <span>Eks Kilang Pertamina RU II Dumai</span>
+            </div>
+          </div>
+
+          <!-- Hero Action Buttons -->
+          <div class="hero-cta-group">
+            <a href="https://wa.me/6285133965577?text=Halo%20Daniel,%20saya%20ingin%20berkonsultasi%20mengenai%20desain%20dan%20pemasaran%20digital." target="_blank" rel="noopener noreferrer" class="btn-action-primary">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm0 18.06c-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.163 8.163 0 0 1-1.26-4.29c0-4.52 3.68-8.2 8.2-8.2 2.19 0 4.25.85 5.8 2.4 1.55 1.55 2.4 3.61 2.4 5.8 0 4.52-3.68 8.15-8.15 8.15zm4.49-6.13c-.25-.12-1.47-.72-1.7-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-2-1.23-.74-.66-1.24-1.48-1.39-1.73-.14-.25-.02-.38.11-.5.11-.11.25-.29.37-.43.12-.14.17-.25.25-.41.08-.17.04-.31-.02-.43s-.56-1.34-.76-1.84c-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.22.25-.86.84-.86 2.05 0 1.21.88 2.38 1 2.54.12.17 1.73 2.64 4.19 3.7.59.25 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.06-.12-.22-.19-.47-.31z"/>
+              </svg>
+              <span>Hubungi via WhatsApp</span>
+            </a>
+
+            <a href="#portofolio" class="btn-action-outline">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                <line x1="8" y1="21" x2="16" y2="21"></line>
+                <line x1="12" y1="17" x2="12" y2="21"></line>
+              </svg>
+              <span>Lihat Portofolio</span>
+            </a>
+
+            <button type="button" class="btn-action-ghost" id="copyEmailBtn" data-email="danielpratama31001@gmail.com">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+              </svg>
+              <span id="copyEmailText">Salin Email</span>
+            </button>
+          </div>
+
+          <!-- Social Links Quick Strip -->
+          <div class="hero-socials">
+            <span class="social-label">Kanal Profil:</span>
+            <div class="social-links-list">
+              <a href="https://www.instagram.com/dnil_pratama?psln=MTNmNGZ5cGFna3JrdQ%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="Instagram @dnil_pratama">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                </svg>
+                <span>Instagram</span>
+              </a>
+              <a href="https://www.tiktok.com/@daniel.pratama31?_r=1&_t=ZS-9B6T9C9KqbV" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="TikTok @daniel.pratama31">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.97v7.59c-.01 2.29-.82 4.54-2.38 6.2-1.57 1.67-3.8 2.62-6.09 2.61-2.09-.01-4.14-.83-5.69-2.25-1.89-1.72-2.9-4.22-2.77-6.74.14-2.52 1.41-4.86 3.46-6.33 1.75-1.25 3.93-1.81 6.09-1.56.02 1.34.01 2.67.01 4-.98-.1-1.98.05-2.85.53-.94.52-1.64 1.39-1.95 2.43-.31 1.05-.18 2.21.37 3.16.55.95 1.49 1.63 2.57 1.87 1.1.24 2.27.05 3.22-.51.94-.56 1.57-1.53 1.72-2.61.07-.53.08-1.07.08-1.61V.02z"/>
+                </svg>
+                <span>TikTok</span>
+              </a>
+              <a href="mailto:danielpratama31001@gmail.com" class="social-icon-btn" title="Email Langsung">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+                <span>Email</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Modern Visual Portrait Card -->
+        <div class="hero-visual">
+          <div class="portrait-card">
+            <div class="portrait-frame">
+              <img src="foto-profil.jpg" alt="Foto Resmi Daniel Pratama Napitupulu" class="portrait-img" loading="eager" />
+              <div class="portrait-gradient-overlay"></div>
+            </div>
+
+            <!-- Floating Highlights Over Photo -->
+            <div class="floating-badge badge-top-right">
+              <div class="f-badge-icon pulse-glow">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                </svg>
+              </div>
+              <div class="f-badge-text">
+                <span class="f-badge-title">Pertamina RU II Dumai</span>
+                <span class="f-badge-sub">Pengalaman Industri Nyata</span>
+              </div>
+            </div>
+
+            <div class="floating-badge badge-bottom-left">
+              <div class="f-badge-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="9" cy="7" r="4"></circle>
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                </svg>
+              </div>
+              <div class="f-badge-text">
+                <span class="f-badge-title">HIMABISDI UNILAK</span>
+                <span class="f-badge-sub">Kreatif &amp; Komunikasi Tim</span>
+              </div>
+            </div>
+
+            <!-- Callout Pill Bottom Right -->
+            <div class="badge-mini-stat">
+              <span class="stat-number">100%</span>
+              <span class="stat-desc">Fokus Dedikasi &amp; Presisi</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ==================== BENTO EXECUTIVE SUMMARY ==================== -->
+    <section class="section-padding" id="tentang">
+      <div class="container">
+        
+        <div class="section-header">
+          <div class="section-pill">Profil Profesional</div>
+          <h2 class="section-title">Dedikasi Desain &amp; Ketajaman Bisnis</h2>
+          <p class="section-desc">
+            Profil komprehensif Daniel Pratama Napitupulu — menyelaraskan estetika visual modern dengan orientasi hasil bisnis dan komunikasi strategis.
+          </p>
+        </div>
+
+        <div class="bento-grid">
+          
+          <!-- Bento 1: Karakter & Filosofi -->
+          <div class="bento-card bento-card-lg">
+            <div class="card-icon-bubble">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                <path d="M2 17l10 5 10-5"></path>
+                <path d="M2 12l10 5 10-5"></path>
+              </svg>
+            </div>
+            <h3 class="bento-title">Filosofi Desain Berbasis Solusi</h3>
+            <p class="bento-text">
+              Bagi saya, desain grafis bukan sekadar menciptakan grafis yang indah di pandang mata, melainkan medium komunikasi visual yang harus menyampaikan pesan dengan jelas, membangun kredibilitas merek, dan mendorong audiens untuk bertindak secara terukur.
+            </p>
+            <div class="bento-tags">
+              <span class="b-tag">Visual Identity</span>
+              <span class="b-tag">Commercial Graphics</span>
+              <span class="b-tag">Brand Storytelling</span>
+              <span class="b-tag">Marketing Collateral</span>
+            </div>
+          </div>
+
+          <!-- Bento 2: Data & Digital Marketing -->
+          <div class="bento-card">
+            <div class="card-icon-bubble">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="18" y1="20" x2="18" y2="10"></line>
+                <line x1="12" y1="20" x2="12" y2="4"></line>
+                <line x1="6" y1="20" x2="6" y2="14"></line>
+              </svg>
+            </div>
+            <h3 class="bento-title">Analisis Data &amp; Pemasaran</h3>
+            <p class="bento-text">
+              Didukung kurikulum S1 Bisnis Digital, saya mengintegrasikan keahlian analisis data untuk memetakan perilaku audiens, tren pasar, serta performa konten promosi agar setiap keputusan desain memiliki dasar data yang valid.
+            </p>
+          </div>
+
+          <!-- Bento 3: Pengalaman Industri Kilang -->
+          <div class="bento-card">
+            <div class="card-icon-bubble">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+              </svg>
+            </div>
+            <h3 class="bento-title">Etos Kerja Industri Berat</h3>
+            <p class="bento-text">
+              Pengalaman di Kilang Pertamina RU II Dumai membentuk disiplin ketat, ketahanan kerja di bawah tekanan operasional tinggi, serta kepatuhan penuh terhadap standar keselamatan, ketelitian, dan integritas kerja.
+            </p>
+          </div>
+
+          <!-- Bento 4: Soft Skills & Kolaborasi -->
+          <div class="bento-card bento-card-wide">
+            <div class="bento-split-layout">
+              <div>
+                <div class="card-icon-bubble">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polyline points="12 6 12 12 14 14"></polyline>
+                  </svg>
+                </div>
+                <h3 class="bento-title">Komunikasi &amp; Negosiasi Interpersonal</h3>
+                <p class="bento-text">
+                  Kekuatan dalam public speaking dan negosiasi memungkinkan saya menjembatani ide teknis desain ke pemangku kepentingan, mempresentasikan konsep di depan forum organisasi, serta menyelesaikan tantangan kolaboratif secara solutif.
+                </p>
+              </div>
+              <div class="soft-skills-badges">
+                <div class="s-pill"><span class="dot-live"></span> Public Speaking</div>
+                <div class="s-pill"><span class="dot-live"></span> Negotiation</div>
+                <div class="s-pill"><span class="dot-live"></span> Strategic Teamwork</div>
+                <div class="s-pill"><span class="dot-live"></span> Problem Solving</div>
+                <div class="s-pill"><span class="dot-live"></span> Strict Time Management</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ==================== PENDIDIKAN ==================== -->
+    <section class="section-padding bg-dark-layer" id="pendidikan">
+      <div class="container">
+        
+        <div class="section-header">
+          <div class="section-pill">Riwayat Pendidikan</div>
+          <h2 class="section-title">Rekam Jejak Akademik</h2>
+          <p class="section-desc">
+            Perjalanan pendidikan formal Daniel Pratama Napitupulu dari pendidikan dasar hingga pendidikan tinggi jenjang sarjana di bidang Bisnis Digital.
+          </p>
+        </div>
+
+        <div class="timeline-container">
+          
+          <!-- Edu 4: Universitas Lancang Kuning -->
+          <div class="timeline-card active-card">
+            <div class="timeline-badge">
+              <span class="t-year">2024 — 2028</span>
+              <span class="t-status">Sedang Ditempuh</span>
+            </div>
+            <div class="timeline-body">
+              <div class="timeline-role-row">
+                <h3 class="timeline-inst">Universitas Lancang Kuning (UNILAK)</h3>
+                <span class="badge-accent">Pendidikan Tinggi</span>
+              </div>
+              <div class="timeline-degree">Program Studi S1 Bisnis Digital — Fakultas Ilmu Komputer</div>
+              <p class="timeline-desc">
+                Mempelajari integrasi teknologi digital dengan strategi bisnis modern, meliputi pemodelan bisnis digital, analisis data analitika pasar, pemasaran digital (digital marketing), komunikasi visual merek, dan manajemen produk digital. Aktif dalam organisasi kemahasiswaan jurusan (HIMABISDI).
+              </p>
+              <div class="timeline-meta-tags">
+                <span class="t-tag">Pekanbaru, Riau</span>
+                <span class="t-tag">Bisnis Digital</span>
+                <span class="t-tag">Analisis Data</span>
+                <span class="t-tag">E-Commerce &amp; Visual Design</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Edu 3: SMAN 6 Pekanbaru -->
+          <div class="timeline-card">
+            <div class="timeline-badge">
+              <span class="t-year">2020 — 2023</span>
+              <span class="t-status">Lulus Resmi</span>
+            </div>
+            <div class="timeline-body">
+              <div class="timeline-role-row">
+                <h3 class="timeline-inst">SMAN 6 Pekanbaru</h3>
+                <span class="badge-muted">Sekolah Menengah Atas</span>
+              </div>
+              <div class="timeline-degree">Pendidikan Menengah Atas</div>
+              <p class="timeline-desc">
+                Membangun pemikiran kritis, memperdalam kemampuan berorganisasi, serta mengasah bakat awal dalam bidang desain grafis kreatif, komunikasi publik, dan kerjasama kelompok.
+              </p>
+              <div class="timeline-meta-tags">
+                <span class="t-tag">Pekanbaru, Riau</span>
+                <span class="t-tag">Kepemimpinan</span>
+                <span class="t-tag">Eksplorasi Kreatif</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Edu 2: SMP Kalam Kudus Pekanbaru -->
+          <div class="timeline-card">
+            <div class="timeline-badge">
+              <span class="t-year">2017 — 2020</span>
+              <span class="t-status">Lulus Resmi</span>
+            </div>
+            <div class="timeline-body">
+              <div class="timeline-role-row">
+                <h3 class="timeline-inst">SMP Kalam Kudus Pekanbaru</h3>
+                <span class="badge-muted">Sekolah Menengah Pertama</span>
+              </div>
+              <div class="timeline-degree">Pendidikan Menengah Pertama</div>
+              <p class="timeline-desc">
+                Pendidikan komprehensif berbasis nilai karakter kedisiplinan tinggi, kerjasama tim, serta penguatan kompetensi komunikasi dan penalaran akademis.
+              </p>
+              <div class="timeline-meta-tags">
+                <span class="t-tag">Pekanbaru, Riau</span>
+                <span class="t-tag">Penguatan Karakter</span>
+                <span class="t-tag">Kedisiplinan</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Edu 1: SDN 018 Pekanbaru Kota -->
+          <div class="timeline-card">
+            <div class="timeline-badge">
+              <span class="t-year">2011 — 2017</span>
+              <span class="t-status">Lulus Resmi</span>
+            </div>
+            <div class="timeline-body">
+              <div class="timeline-role-row">
+                <h3 class="timeline-inst">SDN 018 Pekanbaru Kota</h3>
+                <span class="badge-muted">Sekolah Dasar</span>
+              </div>
+              <div class="timeline-degree">Pendidikan Dasar</div>
+              <p class="timeline-desc">
+                Fondasi awal pendidikan karakter, etika belajar, literasi dasar, serta ketekunan dalam menyelesaikan tugas dan tanggung jawab.
+              </p>
+              <div class="timeline-meta-tags">
+                <span class="t-tag">Pekanbaru Kota, Riau</span>
+                <span class="t-tag">Fondasi Akademik</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ==================== PENGALAMAN ==================== -->
+    <section class="section-padding" id="pengalaman">
+      <div class="container">
+        
+        <div class="section-header">
+          <div class="section-pill">Karier &amp; Organisasi</div>
+          <h2 class="section-title">Pengalaman Kerja &amp; Kontribusi Organisasi</h2>
+          <p class="section-desc">
+            Rekam jejak praktis Daniel Pratama di sektor industri energi nasional dan dinamika organisasi kemahasiswaan kampus.
+          </p>
+        </div>
+
+        <div class="exp-grid">
+          
+          <!-- Experience 1: Kilang Pertamina RU II Dumai -->
+          <div class="exp-card primary-exp">
+            <div class="exp-header">
+              <div class="exp-icon-box">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                </svg>
+              </div>
+              <div class="exp-main-title">
+                <div class="exp-company-tag">Sektor Energi &amp; Pengolahan Minyak Bumi</div>
+                <h3 class="exp-title">Kilang Pertamina RU II Dumai</h3>
+                <span class="exp-period">Pengalaman Kerja Lapangan / Industri</span>
+              </div>
+            </div>
+
+            <div class="exp-content">
+              <p class="exp-narrative">
+                Berpartisipasi dalam lingkungan kerja operasional Kilang Pertamina Refinery Unit (RU) II Dumai — salah satu fasilitas pengolahan minyak terbesar dan paling strategis di Indonesia. Beradaptasi dengan budaya kerja bertaraf multinasional yang menuntut kepatuhan absolut terhadap SOP dan keselamatan kerja.
+              </p>
+
+              <h4 class="exp-bullets-title">Tanggung Jawab &amp; Pencapaian Utama:</h4>
+              <ul class="exp-list">
+                <li>
+                  <span class="list-bullet"></span>
+                  <div>
+                    <strong>Penerapan Standar HSE / K3 Ketat:</strong> Menjalankan seluruh alur aktivitas kerja dengan kepatuhan penuh terhadap standar Health, Safety, and Environment (HSE) Pertamina.
+                  </div>
+                </li>
+                <li>
+                  <span class="list-bullet"></span>
+                  <div>
+                    <strong>Dokumentasi &amp; Komunikasi Visual Lapangan:</strong> Mendukung pencatatan data operasional harian, dokumentasi visual inventaris, serta penyusunan laporan kegiatan unit kerja.
+                  </div>
+                </li>
+                <li>
+                  <span class="list-bullet"></span>
+                  <div>
+                    <strong>Koordinasi Lintas Tim:</strong> Bekerja sama secara aktif dengan tenaga ahli, staf teknis, dan pengawas lapangan dalam memastikan kelancaran alur pelaporan kerja.
+                  </div>
+                </li>
+                <li>
+                  <span class="list-bullet"></span>
+                  <div>
+                    <strong>Ketahanan Kerja di Bawah Tekanan:</strong> Melatih mental ketangguhan, ketepatan estimasi waktu, serta respon cepat terhadap instruksi kerja dinamis.
+                  </div>
+                </li>
+              </ul>
+
+              <div class="exp-tech-strip">
+                <span class="e-chip">HSE / K3 Pertamina</span>
+                <span class="e-chip">Pelaporan Data Lapangan</span>
+                <span class="e-chip">Dokumentasi Operasional</span>
+                <span class="e-chip">Team Coordination</span>
+                <span class="e-chip">Dumai, Riau</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Experience 2: HIMABISDI -->
+          <div class="exp-card secondary-exp">
+            <div class="exp-header">
+              <div class="exp-icon-box org-accent">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="9" cy="7" r="4"></circle>
+                  <line x1="19" y1="8" x2="19" y2="14"></line>
+                  <line x1="22" y1="11" x2="16" y2="11"></line>
+                </svg>
+              </div>
+              <div class="exp-main-title">
+                <div class="exp-company-tag">Organisasi Mahasiswa</div>
+                <h3 class="exp-title">HIMABISDI (Himpunan Mahasiswa Bisnis Digital)</h3>
+                <span class="exp-period">Universitas Lancang Kuning • 2024 — Sekarang</span>
+              </div>
+            </div>
+
+            <div class="exp-content">
+              <p class="exp-narrative">
+                Mengambil peran aktif dalam kepengurusan Himpunan Mahasiswa Bisnis Digital Fakultas Ilmu Komputer UNILAK, bertanggung jawab dalam pengembangan materi visual kreatif, publikasi kegiatan, dan pengelolaan komunikasi eksternal.
+              </p>
+
+              <h4 class="exp-bullets-title">Fokus Kontribusi &amp; Portofolio Organisasi:</h4>
+              <ul class="exp-list">
+                <li>
+                  <span class="list-bullet"></span>
+                  <div>
+                    <strong>Perancangan Identitas Visual &amp; Poster:</strong> Memproduksi poster promosi seminar, workshop bisnis, dan konten media sosial resmi himpunan secara konsisten.
+                  </div>
+                </li>
+                <li>
+                  <span class="list-bullet"></span>
+                  <div>
+                    <strong>Public Speaking &amp; Hubungan Relasi:</strong> Menjadi penghubung komunikasi dalam forum himpunan, menyampaikan gagasan di hadapan mahasiswa dan delegasi acara.
+                  </div>
+                </li>
+                <li>
+                  <span class="list-bullet"></span>
+                  <div>
+                    <strong>Manajemen Acara &amp; Negosiasi:</strong> Terlibat dalam tim panitia pelaksana kegiatan program kerja, bernegosiasi dengan rekanan logistik dan sponsor kegiatan.
+                  </div>
+                </li>
+              </ul>
+
+              <div class="exp-tech-strip">
+                <span class="e-chip">Desain Konten Organisasi</span>
+                <span class="e-chip">Public Speaking</span>
+                <span class="e-chip">Negosiasi &amp; Kemitraan</span>
+                <span class="e-chip">Manajemen Acara Kampus</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ==================== SKILLS & KEAHLIAN ==================== -->
+    <section class="section-padding bg-dark-layer" id="keahlian">
+      <div class="container">
+        
+        <div class="section-header">
+          <div class="section-pill">Keahlian &amp; Kapabilitas</div>
+          <h2 class="section-title">Matriks Keahlian Terpadu</h2>
+          <p class="section-desc">
+            Kombinasi sinergis antara keahlian teknis (Hard Skills) di bidang desain dan data dengan kecakapan interpersonal (Soft Skills) yang adaptif.
+          </p>
+        </div>
+
+        <div class="skills-showcase-grid">
+          
+          <!-- Column 1: Hard Skills -->
+          <div class="skill-category-card">
+            <div class="skill-cat-head">
+              <div class="cat-icon-glow">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+                </svg>
+              </div>
+              <div>
+                <h3 class="cat-title">Hard Skills (Teknis)</h3>
+                <span class="cat-subtitle">Keahlian utama &amp; tools praktis</span>
+              </div>
+            </div>
+
+            <div class="skill-bars-list">
+              <!-- Hard Skill 1 -->
+              <div class="skill-bar-item">
+                <div class="skill-bar-info">
+                  <span class="skill-name">Desain Grafis &amp; Visual Branding</span>
+                  <span class="skill-val">95%</span>
+                </div>
+                <div class="skill-track">
+                  <div class="skill-fill" style="width: 95%;"></div>
+                </div>
+                <span class="skill-caption">Adobe Photoshop, Illustrator, Canva, Figma — tipografi, layout, poster promosi, &amp; aset digital.</span>
+              </div>
+
+              <!-- Hard Skill 2 -->
+              <div class="skill-bar-item">
+                <div class="skill-bar-info">
+                  <span class="skill-name">Analisis Data (Data Analytics)</span>
+                  <span class="skill-val">88%</span>
+                </div>
+                <div class="skill-track">
+                  <div class="skill-fill" style="width: 88%;"></div>
+                </div>
+                <span class="skill-caption">Analisis tren penjualan, visualisasi data, riset segmentasi pasar, dan penarikan wawasan berbasis metrik.</span>
+              </div>
+
+              <!-- Hard Skill 3 -->
+              <div class="skill-bar-item">
+                <div class="skill-bar-info">
+                  <span class="skill-name">Pemasaran Digital (Digital Marketing)</span>
+                  <span class="skill-val">90%</span>
+                </div>
+                <div class="skill-track">
+                  <div class="skill-fill" style="width: 90%;"></div>
+                </div>
+                <span class="skill-caption">Social Media Marketing (Instagram, TikTok), perencanaan konten editorial, copywriting persuasif, &amp; visual ads.</span>
+              </div>
+
+              <!-- Hard Skill 4 -->
+              <div class="skill-bar-item">
+                <div class="skill-bar-info">
+                  <span class="skill-name">Pengolahan Data &amp; Dokumen Bisnis</span>
+                  <span class="skill-val">92%</span>
+                </div>
+                <div class="skill-track">
+                  <div class="skill-fill" style="width: 92%;"></div>
+                </div>
+                <span class="skill-caption">Microsoft Excel / Google Sheets (Formula, Pivot, Data Formatting), Word &amp; PowerPoint Presentation.</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Column 2: Soft Skills -->
+          <div class="skill-category-card">
+            <div class="skill-cat-head">
+              <div class="cat-icon-glow soft-accent">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="9" cy="7" r="4"></circle>
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                </svg>
+              </div>
+              <div>
+                <h3 class="cat-title">Soft Skills (Interpersonal)</h3>
+                <span class="cat-subtitle">Kepemimpinan, komunikasi &amp; adaptasi</span>
+              </div>
+            </div>
+
+            <div class="skill-bars-list">
+              <!-- Soft Skill 1 -->
+              <div class="skill-bar-item">
+                <div class="skill-bar-info">
+                  <span class="skill-name">Public Speaking &amp; Presentasi</span>
+                  <span class="skill-val">94%</span>
+                </div>
+                <div class="skill-track">
+                  <div class="skill-fill soft-fill" style="width: 94%;"></div>
+                </div>
+                <span class="skill-caption">Artikulasi ide jelas, percaya diri berbicara di forum publik, dan kemampuan memaparkan konsep desain.</span>
+              </div>
+
+              <!-- Soft Skill 2 -->
+              <div class="skill-bar-item">
+                <div class="skill-bar-info">
+                  <span class="skill-name">Negosiasi &amp; Komunikasi Persuasif</span>
+                  <span class="skill-val">89%</span>
+                </div>
+                <div class="skill-track">
+                  <div class="skill-fill soft-fill" style="width: 89%;"></div>
+                </div>
+                <span class="skill-caption">Menyelaraskan ekspektasi klien/organisasi, mencari titik temu solusi, dan membangun kemitraan win-win.</span>
+              </div>
+
+              <!-- Soft Skill 3 -->
+              <div class="skill-bar-item">
+                <div class="skill-bar-info">
+                  <span class="skill-name">Kerjasama Tim (Teamwork)</span>
+                  <span class="skill-val">96%</span>
+                </div>
+                <div class="skill-track">
+                  <div class="skill-fill soft-fill" style="width: 96%;"></div>
+                </div>
+                <span class="skill-caption">Kolaboratif, menghargai dinamika kerja lintas fungsi, serta proaktif memberi kontribusi nyata dalam kelompok.</span>
+              </div>
+
+              <!-- Soft Skill 4 -->
+              <div class="skill-bar-item">
+                <div class="skill-bar-info">
+                  <span class="skill-name">Problem Solving &amp; Manajemen Waktu</span>
+                  <span class="skill-val">92%</span>
+                </div>
+                <div class="skill-track">
+                  <div class="skill-fill soft-fill" style="width: 92%;"></div>
+                </div>
+                <span class="skill-caption">Solutif menghadapi hambatan proyek, manajemen skala prioritas tugas, dan disiplin tinggi pada batas deadline.</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Software & Stack Badges Strip -->
+        <div class="tools-strip-box">
+          <span class="tools-strip-title">Ekosistem Alat &amp; Perangkat Kerja:</span>
+          <div class="tools-pill-group">
+            <span class="tool-pill"><span class="tool-icon">🎨</span> Adobe Photoshop</span>
+            <span class="tool-pill"><span class="tool-icon">✒️</span> Adobe Illustrator</span>
+            <span class="tool-pill"><span class="tool-icon">📐</span> Canva Pro</span>
+            <span class="tool-pill"><span class="tool-icon">💎</span> Figma</span>
+            <span class="tool-pill"><span class="tool-icon">📊</span> Microsoft Excel / Data Analytics</span>
+            <span class="tool-pill"><span class="tool-icon">📱</span> Meta Business Suite / Instagram</span>
+            <span class="tool-pill"><span class="tool-icon">🎬</span> CapCut Video Visuals</span>
+            <span class="tool-pill"><span class="tool-icon">⚡</span> TikTok Creator Studio</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ==================== PROYEK & KARYA PORTOFOLIO ==================== -->
+    <section class="section-padding" id="portofolio">
+      <div class="container">
+        
+        <div class="section-header">
+          <div class="section-pill">Portofolio &amp; Eksplorasi</div>
+          <h2 class="section-title">Karya &amp; Studi Kasus Proyek</h2>
+          <p class="section-desc">
+            Eksplorasi proyek desain grafis, visualisasi data, kampanye media sosial, dan materi komunikasi operasional industri yang dikerjakan oleh Daniel Pratama.
+          </p>
+        </div>
+
+        <!-- Filter Buttons -->
+        <div class="portfolio-filter-bar">
+          <button type="button" class="filter-btn active" data-filter="all">Semua Karya</button>
+          <button type="button" class="filter-btn" data-filter="design">Desain Grafis &amp; Brand</button>
+          <button type="button" class="filter-btn" data-filter="marketing">Pemasaran Digital</button>
+          <button type="button" class="filter-btn" data-filter="data">Analisis Data</button>
+        </div>
+
+        <!-- Portfolio Cards Grid -->
+        <div class="portfolio-grid" id="portfolioGrid">
+          
+          <!-- Project 1: Brand Identity Rebrand -->
+          <article class="project-card" data-category="design">
+            <div class="project-card-banner banner-navy-1">
+              <div class="project-tag-pill">Desain Grafis &amp; Branding</div>
+              <div class="project-icon-art">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path>
+                  <path d="M2 12h20"></path>
+                </svg>
+              </div>
+            </div>
+            <div class="project-body">
+              <div class="project-meta">Tahun 2024 • Identitas Visual Bisnis</div>
+              <h3 class="project-title">Rebranding &amp; Panduan Identitas Visual UMKM Retail</h3>
+              <p class="project-desc">
+                Perancangan ulang logo monoline modern, pemilihan palet warna korporat navy-emas, tipografi hierarkis, serta desain kemasan produk untuk meningkatkan persepsi nilai jual toko retail lokal.
+              </p>
+              <div class="project-tags">
+                <span>Logo Design</span>
+                <span>Brand Guidelines</span>
+                <span>Photoshop</span>
+                <span>Vector Art</span>
+              </div>
+              <button type="button" class="btn-detail-modal" onclick="openProjectModal('project1')">
+                <span>Lihat Detail Studi Kasus</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </button>
+            </div>
+          </article>
+
+          <!-- Project 2: Social Media Campaign -->
+          <article class="project-card" data-category="marketing">
+            <div class="project-card-banner banner-navy-2">
+              <div class="project-tag-pill">Pemasaran Digital</div>
+              <div class="project-icon-art">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                </svg>
+              </div>
+            </div>
+            <div class="project-body">
+              <div class="project-meta">Tahun 2024 • Social Media Growth</div>
+              <h3 class="project-title">Kampanye Konten Edukasi Bisnis Digital &amp; Event Kampus</h3>
+              <p class="project-desc">
+                Strategi konten terpadu untuk platform Instagram &amp; TikTok: memadukan carousels informatif estetis, copywriting bernilai tambah, dan visual thumbnail interaktif yang meningkatkan jangkauan organik akun organisasi.
+              </p>
+              <div class="project-tags">
+                <span>Content Strategy</span>
+                <span>Instagram Carousel</span>
+                <span>Copywriting</span>
+                <span>TikTok Hook</span>
+              </div>
+              <button type="button" class="btn-detail-modal" onclick="openProjectModal('project2')">
+                <span>Lihat Detail Studi Kasus</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </button>
+            </div>
+          </article>
+
+          <!-- Project 3: Data Analytics & Market Insight -->
+          <article class="project-card" data-category="data">
+            <div class="project-card-banner banner-navy-3">
+              <div class="project-tag-pill">Analisis Data</div>
+              <div class="project-icon-art">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <line x1="18" y1="20" x2="18" y2="10"></line>
+                  <line x1="12" y1="20" x2="12" y2="4"></line>
+                  <line x1="6" y1="20" x2="6" y2="14"></line>
+                </svg>
+              </div>
+            </div>
+            <div class="project-body">
+              <div class="project-meta">Tahun 2024 • Business Analytics</div>
+              <h3 class="project-title">Dashboard Analisis Perilaku Konsumen &amp; Performa Penjualan</h3>
+              <p class="project-desc">
+                Penyusunan model analisis data komparatif performa penjualan bulanan dan preferensi audiens menggunakan spreadsheet canggih, mengubah data mentah angka menjadi grafik visual yang mudah dieksekusi oleh manajemen.
+              </p>
+              <div class="project-tags">
+                <span>Data Modeling</span>
+                <span>Pivot Analysis</span>
+                <span>Data Visualization</span>
+                <span>Market Insights</span>
+              </div>
+              <button type="button" class="btn-detail-modal" onclick="openProjectModal('project3')">
+                <span>Lihat Detail Studi Kasus</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </button>
+            </div>
+          </article>
+
+          <!-- Project 4: HSE Industrial Poster Series -->
+          <article class="project-card" data-category="design">
+            <div class="project-card-banner banner-navy-4">
+              <div class="project-tag-pill">Desain Grafis Industri</div>
+              <div class="project-icon-art">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path>
+                  <line x1="12" y1="9" x2="12" y2="13"></line>
+                  <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                </svg>
+              </div>
+            </div>
+            <div class="project-body">
+              <div class="project-meta">Tahun 2023 • Komunikasi Visual K3</div>
+              <h3 class="project-title">Poster Signage &amp; Kampanye Keselamatan Kerja (HSE Awareness)</h3>
+              <p class="project-desc">
+                Desain serial infografis dan poster keselamatan kerja terinspirasi dari standar industri Kilang Dumai, menekankan kepatuhan APD (Alat Pelindung Diri), mitigasi bahaya uap minyak, dan jalur evakuasi darurat dengan tipografi berjarak baca tinggi.
+              </p>
+              <div class="project-tags">
+                <span>HSE Posters</span>
+                <span>Safety Signage</span>
+                <span>Infographics</span>
+                <span>Industrial Design</span>
+              </div>
+              <button type="button" class="btn-detail-modal" onclick="openProjectModal('project4')">
+                <span>Lihat Detail Studi Kasus</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </button>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ==================== INTERACTIVE CONTACT & WHATSAPP GENERATOR ==================== -->
+    <section class="section-padding bg-dark-layer" id="kontak">
+      <div class="container">
+        
+        <div class="section-header">
+          <div class="section-pill">Kontak &amp; Kolaborasi</div>
+          <h2 class="section-title">Mari Terhubung &amp; Mulai Kolaborasi</h2>
+          <p class="section-desc">
+            Punya kebutuhan desain grafis, kampanye promosi digital, atau ingin berdiskusi seputar peluang kerja sama? Hubungi saya langsung melalui kanal di bawah ini.
+          </p>
+        </div>
+
+        <div class="contact-card-grid">
+          
+          <!-- Left: WhatsApp Interactive Generator -->
+          <div class="contact-box contact-interactive">
+            <div class="box-badge-green">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm0 18.06c-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.163 8.163 0 0 1-1.26-4.29c0-4.52 3.68-8.2 8.2-8.2 2.19 0 4.25.85 5.8 2.4 1.55 1.55 2.4 3.61 2.4 5.8 0 4.52-3.68 8.15-8.15 8.15zm4.49-6.13c-.25-.12-1.47-.72-1.7-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-2-1.23-.74-.66-1.24-1.48-1.39-1.73-.14-.25-.02-.38.11-.5.11-.11.25-.29.37-.43.12-.14.17-.25.25-.41.08-.17.04-.31-.02-.43s-.56-1.34-.76-1.84c-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.22.25-.86.84-.86 2.05 0 1.21.88 2.38 1 2.54.12.17 1.73 2.64 4.19 3.7.59.25 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.06-.12-.22-.19-.47-.31z"/>
+              </svg>
+              <span>WhatsApp Direct Message (Respon Cepat)</span>
+            </div>
+
+            <h3 class="contact-box-title">Kirim Pesan WhatsApp Langsung</h3>
+            <p class="contact-box-sub">
+              Pilih template pesan cepat atau ketik sendiri pesan yang ingin Anda sampaikan ke nomor <strong>085133965577</strong>.
+            </p>
+
+            <!-- Quick Template Pills -->
+            <div class="msg-templates">
+              <span class="tpl-label">Template Pesan Cepat:</span>
+              <div class="tpl-buttons">
+                <button type="button" class="tpl-btn" onclick="applyTemplate('Halo Daniel, saya ingin mendiskusikan penawaran proyek desain grafis / branding dengan Anda.')">Desain Grafis &amp; Branding</button>
+                <button type="button" class="tpl-btn" onclick="applyTemplate('Halo Daniel, saya tertarik berkonsultasi mengenai strategi digital marketing &amp; analisis data.')">Digital Marketing</button>
+                <button type="button" class="tpl-btn" onclick="applyTemplate('Halo Daniel, saya ingin berdiskusi mengenai peluang kerja / kerjasama tim.')">Peluang Kerja / Kolaborasi</button>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="waMessageInput" class="form-label">Teks Pesan WhatsApp:</label>
+              <textarea id="waMessageInput" class="form-textarea" rows="4" placeholder="Tuliskan pesan Anda di sini...">Halo Daniel Pratama, saya melihat profil CV website Anda dan tertarik untuk berdiskusi lebih lanjut mengenai proyek desain grafis / kerjasama profesional.</textarea>
+            </div>
+
+            <div class="form-actions">
+              <button type="button" class="btn-send-wa" id="sendWaBtn">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm0 18.06c-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.163 8.163 0 0 1-1.26-4.29c0-4.52 3.68-8.2 8.2-8.2 2.19 0 4.25.85 5.8 2.4 1.55 1.55 2.4 3.61 2.4 5.8 0 4.52-3.68 8.15-8.15 8.15zm4.49-6.13c-.25-.12-1.47-.72-1.7-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-2-1.23-.74-.66-1.24-1.48-1.39-1.73-.14-.25-.02-.38.11-.5.11-.11.25-.29.37-.43.12-.14.17-.25.25-.41.08-.17.04-.31-.02-.43s-.56-1.34-.76-1.84c-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.22.25-.86.84-.86 2.05 0 1.21.88 2.38 1 2.54.12.17 1.73 2.64 4.19 3.7.59.25 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.06-.12-.22-.19-.47-.31z"/>
+                </svg>
+                <span>Buka WhatsApp Sekarang</span>
+              </button>
+              <button type="button" class="btn-copy-wa" id="copyWaNumBtn" data-phone="085133965577">
+                <span id="copyWaText">Salin No. WhatsApp</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Right: Direct Channels Cards -->
+          <div class="contact-channels-column">
+            
+            <!-- Email Direct Card -->
+            <div class="channel-card">
+              <div class="channel-icon-circle">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </div>
+              <div class="channel-content">
+                <span class="channel-label">Email Resmi</span>
+                <a href="mailto:danielpratama31001@gmail.com" class="channel-value">danielpratama31001@gmail.com</a>
+                <span class="channel-hint">Klik untuk mengirim surel langsung</span>
+              </div>
+            </div>
+
+            <!-- Instagram Card -->
+            <div class="channel-card">
+              <div class="channel-icon-circle ig-gradient">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                </svg>
+              </div>
+              <div class="channel-content">
+                <span class="channel-label">Instagram Profil</span>
+                <a href="https://www.instagram.com/dnil_pratama?psln=MTNmNGZ5cGFna3JrdQ%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer" class="channel-value">@dnil_pratama</a>
+                <span class="channel-hint">Eksplorasi gaya visual, aktivitas, &amp; jejaring</span>
+              </div>
+            </div>
+
+            <!-- TikTok Card -->
+            <div class="channel-card">
+              <div class="channel-icon-circle tiktok-color">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.97v7.59c-.01 2.29-.82 4.54-2.38 6.2-1.57 1.67-3.8 2.62-6.09 2.61-2.09-.01-4.14-.83-5.69-2.25-1.89-1.72-2.9-4.22-2.77-6.74.14-2.52 1.41-4.86 3.46-6.33 1.75-1.25 3.93-1.81 6.09-1.56.02 1.34.01 2.67.01 4-.98-.1-1.98.05-2.85.53-.94.52-1.64 1.39-1.95 2.43-.31 1.05-.18 2.21.37 3.16.55.95 1.49 1.63 2.57 1.87 1.1.24 2.27.05 3.22-.51.94-.56 1.57-1.53 1.72-2.61.07-.53.08-1.07.08-1.61V.02z"/>
+                </svg>
+              </div>
+              <div class="channel-content">
+                <span class="channel-label">TikTok Creator</span>
+                <a href="https://www.tiktok.com/@daniel.pratama31?_r=1&_t=ZS-9B6T9C9KqbV" target="_blank" rel="noopener noreferrer" class="channel-value">@daniel.pratama31</a>
+                <span class="channel-hint">Kreativitas konten video pendek &amp; interaksi</span>
+              </div>
+            </div>
+
+            <!-- Domisili & Wilayah Card -->
+            <div class="channel-card">
+              <div class="channel-icon-circle loc-accent">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+              </div>
+              <div class="channel-content">
+                <span class="channel-label">Domisili &amp; Lokasi Kerja</span>
+                <span class="channel-value text-white">Pekanbaru, Riau, Indonesia</span>
+                <span class="channel-hint">Tersedia untuk kerja Onsite / Hybrid / Remote</span>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-left">
+        <div class="footer-brand">
+          <img src="logo.svg" alt="Logo Daniel" width="30" height="30" />
+          <span class="footer-brand-text">Daniel Pratama Napitupulu</span>
+        </div>
+        <p class="footer-copy">
+          &copy; <span id="currentYear">2026</span> Daniel Pratama Napitupulu. Seluruh hak cipta dilindungi undang-undang.
+        </p>
+      </div>
+
+      <div class="footer-links">
+        <a href="#hero">Beranda</a>
+        <a href="#tentang">Tentang</a>
+        <a href="#pendidikan">Pendidikan</a>
+        <a href="#pengalaman">Pengalaman</a>
+        <a href="#keahlian">Keahlian</a>
+        <a href="#portofolio">Portofolio</a>
+        <a href="#kontak">Kontak</a>
+      </div>
+
+      <div class="footer-right">
+        <a href="#top" class="back-to-top" title="Kembali ke atas">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="18 15 12 9 6 15"></polyline>
+          </svg>
+          <span>Atas</span>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== MODAL PREVIEW PROYEK ==================== -->
+  <div class="modal-backdrop" id="projectModal" aria-hidden="true">
+    <div class="modal-dialog">
+      <button type="button" class="modal-close-btn" id="modalCloseBtn" aria-label="Tutup jendela modal">&times;</button>
+      <div class="modal-body" id="modalBody">
+        <!-- Content dynamically injected by script.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Notification Toast -->
+  <div class="toast-notification" id="toastNotification" aria-live="polite">
+    <span id="toastMessage">Teks berhasil disalin!</span>
+  </div>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
